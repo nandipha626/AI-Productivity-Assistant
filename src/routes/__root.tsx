@@ -81,6 +81,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lumen — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate emails, summarize meetings, plan tasks and research faster with AI built for modern professionals." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8cbe2ee4-9d0e-4d69-83db-34987d0d5ab9/id-preview-8ed41099--3bbecd96-1202-4495-ad62-4bf0ee0ad53f.lovable.app-1778153840335.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8cbe2ee4-9d0e-4d69-83db-34987d0d5ab9/id-preview-8ed41099--3bbecd96-1202-4495-ad62-4bf0ee0ad53f.lovable.app-1778153840335.png" },
     ],
     links: [
       {
